@@ -17,7 +17,7 @@ on:
 
 env:
   REGISTRY: docker.io
-  IMAGENAME : wilianto937/expressapp
+  IMAGE_NAME : wilianto937/expressapp
 
 jobs:
   push_to_registry:
