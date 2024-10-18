@@ -15,6 +15,10 @@ on:
     - main
     - master
 
+env:
+  REGISTRY: docker.io
+  IMAGENAME : wilianto937/expressapp
+
 jobs:
   push_to_registry:
     name: Push Docker image to Docker Hub
